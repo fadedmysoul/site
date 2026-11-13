@@ -1,22 +1,104 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
- body {
-font-family: sans-serif;
-background-color: #0c1014;
-text-align: left; 
+
+body {
+    font-family: Arial;
+    background: #0c1014;
+    color: white;
 }
 
-header img {
-width: 60px;
-display: block;
-margin: 0%;
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.esquerda {
+    width: 66%;
+    text-align: center;
+    border-right: 1px solid #555;
+}
+
+.logo {
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
 }
 
 h1 {
-font-size: 20px;
-color: aliceblue;
-margin: 15px 0;
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 100px;
+}
+
+.foto {
+    width: 550px;
+    margin-top: 45px;
+}
+
+.direita {
+    width: 34%;
+    background: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 82%;
+}
+
+.login h3 {
+    margin-bottom: 25px;
+}
+
+input, button {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
+input {
+    background: transparent;
+    border: 1px solid #555;
+    padding: 15px;
+    color: white;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.entrar {
+    background: #164477;
+    color: white;
+}
+
+.esqueceu {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0 60px;
+}
+
+.facebook {
+    background: #292929;
+    color: white;
+}
+
+.criar {
+    background: transparent;
+    border: 1px solid #1685ff;
+    color: #1685ff;
+}
+
+.meta {
+    text-align: center;
+    margin-top: 20px;
 }
